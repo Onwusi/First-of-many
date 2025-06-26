@@ -1,0 +1,77 @@
+.container1 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: lightslategray;
+    padding: 20px;
+}
+
+.name {
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+    border: 40px;
+    border-radius: 40px;
+}
+
+a {
+    border: 1px solid black;
+    border-radius: 10px;
+  text-decoration: none;
+  padding: 10px;
+  justify-content: space-evenly;
+  width: 10%;
+}
+
+img {
+    border-radius: 40px;
+    width: 30%;
+}
+.container2 {
+   display: inline-block;
+   width: 40%;
+   margin-left: 40%;
+    padding: 10px;
+    color: aliceblue;
+}
+
+.container3 {
+    color: aliceblue;
+    display: inline-block;
+    width: 20%;
+    padding: 20px;
+    background-color: lightslategray;
+}
+
+.second {
+    display: inline-block;
+    width: 80%;
+    color: aliceblue;
+    padding: 20px;
+    margin-left: 20%;
+}
+
+.button {
+    margin-left: 60%;
+}
+
+a:hover {
+    color: aliceblue;
+    background-color: black;
+}
+button:hover {
+    color: aliceblue;
+    background-color: black;
+}
+
+@media only screen and (min-width:600px) {
+    body {}
+    
+}
+@media only screen and (max-width:768px) {
+    body {}
+    
+}
+@media only screen and (min-width:992px) {
+    body {}
+    
+}
